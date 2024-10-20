@@ -195,33 +195,47 @@ In the file grouping_ils.cpp, there is a section titled "Configurable Parameters
 
 (1) MAX_COMPATIBILITY: The maximum value for compatibility. In the following example, it is 10:
 
+```
 const int MAX_FRIENDSHIP = 10;
+```
 
 (2) STUDENT_IN_GROUP: The number of students per group. If the total number is not divisible, groups with one less member are created. In this example, groups of 4 or 3 members are created:
 
+```
 const int STUDENT_IN_GROUP = 4;
+```
 
 (3) PermitGirlAlone: Set to true if you allow groups with only one girl, false otherwise. In the following example, groups with only one girl are not allowed:
 
+```
 const bool PermitGirlAlone = false;
+```
 
 (4) PermitBoyAlone: Set to true if you allow groups with only one boy, false otherwise. In the following example, groups with only one boy are not allowed:
 
+```
 const bool PermitBoyAlone = false;
+```
 
 (5) PermitAllGirl: Set to true to allow all-girl groups:
 
+```
 const bool PermitAllGirl = false;
+```
 
 (6) PermitAllBoy: Set to true to allow all-boy groups:
 
+```
 const bool PermitAllBoy = true;
+```
 
 (Note) Variables set with true or false might not function correctly as they have not been thoroughly tested. Please contact us if you notice any issues.
 
 (7) LIMIT_TIME: The time (in seconds) allowed for searching for a solution. The loop terminates if the time exceeds this value. In the following example, it stops after 120 seconds:
 
+```
 double LIMIT_TIME = 120;
+```
 
 ## Compilation
 
