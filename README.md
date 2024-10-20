@@ -4,13 +4,13 @@ Yukari team optimization program
  
 Time-stamp: <2018-05-22 16:00:18 arakit>
 
-** Changes
+## Changes
 
 The calculation has been modified to complete within the specified time.
 The criteria for a good group division have been changed.
 The number of transfer students in a group is no longer considered.
 
-** The problem this program solves
+## The problem this program solves
 
 The task is to create groups of m students from the class of n students. The "compatibility" between students is given as a number from 1 to MAX_COMPATIBILITY. A larger number indicates a "better relationship."
 
@@ -22,12 +22,12 @@ For example, the goal is to create groups that satisfy the following conditions:
 	(a) The group with the largest "minimum compatibility" within the group.
 	(b) If the "minimum compatibility" is the same, the group with the largest "total compatibility" is preferred.
 
-** Assumptions
+## Assumptions
 
 (1) There are more boys than girls.
 (2) If girls cannot be alone in a group, the number of girls is even. (If the number of girls is odd, please add a dummy student.)
 
-** Preparing Student Data
+## Preparing Student Data
 
 Prepare a file as follows:
 
@@ -174,7 +174,7 @@ Example:
 0 0 0
 --- End ---
 
-* File Description
+## File Description
 
 Line 1: Total number of students n
 
@@ -187,7 +187,7 @@ Subsequent lines:
 Format: a b x where a and b are students, and x indicates their relationship.
 The last line ends with "0 0 0".
 
-** Pre-configuration of the program
+## Pre-configuration of the program
 
 In the file grouping_ils.cpp, there is a section titled "Configurable Parameters." Adjust the following variables according to your objectives:
 
@@ -221,7 +221,7 @@ const bool PermitAllBoy = true;
 
 double LIMIT_TIME = 120;
 
-** Compilation
+## Compilation
 
 Use the make command.
 
@@ -243,7 +243,6 @@ Example: If the file name in the above example is `data16.txt`:
 
 Output Example:
 
-=======
 0,4,7H,10,13,14,7 6 9 9 8 4 ,41.0,43,40,4,1,
 1,4,1g,4g,6H,9,6 7 9 9 10 8 ,49.0,49,62,2,1,
 2,4,0g,5gH,8,15,6 5 6 4 8 4 ,29.0,33,42,2,1,
@@ -251,7 +250,7 @@ Output Example:
 Total Value = 159.0
 Minimum Compatibility = 4
 Total Compatibility = 167
-=======
+
 
 From left to right:
 
