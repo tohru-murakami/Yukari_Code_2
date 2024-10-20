@@ -33,6 +33,7 @@ Prepare a file as follows:
 
 Example:
 
+```
 --- Start ---
 16
 0 1 0
@@ -173,6 +174,7 @@ Example:
 14 15 6
 0 0 0
 --- End ---
+```
 
 ## File Description
 
@@ -243,6 +245,7 @@ Example: If the file name in the above example is `data16.txt`:
 
 Output Example:
 
+```
 0,4,7H,10,13,14,7 6 9 9 8 4 ,41.0,43,40,4,1,
 1,4,1g,4g,6H,9,6 7 9 9 10 8 ,49.0,49,62,2,1,
 2,4,0g,5gH,8,15,6 5 6 4 8 4 ,29.0,33,42,2,1,
@@ -250,7 +253,7 @@ Output Example:
 Total Value = 159.0
 Minimum Compatibility = 4
 Total Compatibility = 167
-
+```
 
 From left to right:
 
