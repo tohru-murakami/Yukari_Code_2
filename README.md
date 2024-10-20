@@ -229,11 +229,15 @@ Use the make command.
 
 Example:
 
+```
 % make
+```
 
 This generates the executable file grouping_ils. Run it as follows:
 
+```
 % ./grouping_ils filename
+```
 
 To specify the execution time, use -t time (seconds). If no time is specified, the LIMIT_TIME defined in the source file is used.
 
@@ -257,6 +261,7 @@ Total Compatibility = 167
 
 From left to right:
 
+```
 Group number
 Number of members in the group (m)
 Student numbers of the m members. g indicates a girl, H indicates a transfer student.
@@ -267,4 +272,5 @@ Minimum compatibility within the group
 Number of girls
 Number of boys
 Number of transfer students
+```
 
