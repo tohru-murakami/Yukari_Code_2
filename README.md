@@ -1,10 +1,10 @@
-# Yukari_code
+# Yukari code 2
 
-Yukari team optimization program
- 
+Yukari team optimization program.
+
 Time-stamp: <2018-05-22 16:00:18 arakit>
 
-## Changes
+## Changes from Yukari Code 1
 
 The calculation has been modified to complete within the specified time.
 The criteria for a good group division have been changed.
@@ -16,16 +16,16 @@ The task is to create groups of m students from the class of n students. The "co
 
 For example, the goal is to create groups that satisfy the following conditions:
 
-(1) Each group has m or m-1 members.
-(2) Groups with only one girl or one boy are not allowed, except in groups of three where one can be alone.
-(3) A "good group assignment" is defined as:
-	(a) The group with the largest "minimum compatibility" within the group.
-	(b) If the "minimum compatibility" is the same, the group with the largest "total compatibility" is preferred.
+1. Each group has m or m-1 members.
+2. Groups with only one girl or one boy are not allowed, except in groups of three where one can be alone.
+3. A "good group assignment" is defined as:
+   - The group with the largest "minimum compatibility" within the group.
+   - If the "minimum compatibility" is the same, the group with the largest "total compatibility" is preferred.
 
 ## Assumptions
 
-(1) There are more boys than girls.
-(2) If girls cannot be alone in a group, the number of girls is even. (If the number of girls is odd, please add a dummy student.)
+1. There are more boys than girls.
+2. If girls cannot be alone in a group, the number of girls is even. (If the number of girls is odd, please add a dummy student.)
 
 ## Preparing Student Data
 
@@ -259,7 +259,10 @@ In the following example, the calculation stops after 10 seconds and outputs the
 
 Example: If the file name in the above example is `data16.txt`:
 
+```
 % ./grouping_ils -t 10 data16.txt
+```
+
 
 Output Example:
 
@@ -288,3 +291,6 @@ Number of boys
 Number of transfer students
 ```
 
+## Contributions
+
+The source codes, sample data, and this README were written by Toru Araki. Japanese in the codes and README were translated to English by Tohru Murakami. The repository at GitHub including these files and other supplimentary files were compiled by Tohru Murakami.
