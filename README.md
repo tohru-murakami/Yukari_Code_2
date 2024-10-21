@@ -12,11 +12,11 @@ The number of transfer students in a group is no longer considered.
 
 ## The problem this program solves
 
-The task is to create groups of m students from the class of n students. The "compatibility" between students is given as a number from 1 to MAX_COMPATIBILITY. A larger number indicates a "better relationship."
+The task is to create groups of m students from the class of n students. The "compatibility" between students is given as a number from 1 to `MAX_COMPATIBILITY`. A larger number indicates a "better relationship."
 
 For example, the goal is to create groups that satisfy the following conditions:
 
-1. Each group has m or m-1 members.
+1. Each group has `m` or `m-1` members.
 2. Groups with only one girl or one boy are not allowed, except in groups of three where one can be alone.
 3. A "good group assignment" is defined as:
    - The group with the largest "minimum compatibility" within the group.
@@ -178,52 +178,52 @@ Example:
 
 ## File Description
 
-Line 1: Total number of students n
-
-Next n lines:
-Student ID, Gender, Transfer student status
-	Gender (0: Male, 1: Female)
-	Transfer student (0: Regular, 1: Transfer)
-
-Subsequent lines:
-Format: a b x where a and b are students, and x indicates their relationship.
-The last line ends with "0 0 0".
+- Line 1: 
+  - Total number of students `n`
+- Next n lines:
+  - Student ID, Gender, Transfer student status
+    - Gender (`0`: Male, `1`: Female)
+    - Transfer student (`0`: Regular, `1`: Transfer)
+- Subsequent lines:
+  - Format: `a b x` 
+  - where `a` and `b` are students, and `x` indicates their relationship.
+- The last line ends with "`0 0 0`".
 
 ## Pre-configuration of the program
 
 In the file grouping_ils.cpp, there is a section titled "Configurable Parameters." Adjust the following variables according to your objectives:
 
-(1) MAX_COMPATIBILITY: The maximum value for compatibility. In the following example, it is 10:
+(1) `MAX_COMPATIBILITY`: The maximum value for compatibility. In the following example, it is 10:
 
 ```
-const int MAX_FRIENDSHIP = 10;
+const int MAX_COMPATIBILITYFRIENDSHIP = 10;
 ```
 
-(2) STUDENT_IN_GROUP: The number of students per group. If the total number is not divisible, groups with one less member are created. In this example, groups of 4 or 3 members are created:
+(2) `STUDENT_IN_GROUP`: The number of students per group. If the total number is not divisible, groups with one less member are created. In this example, groups of 4 or 3 members are created:
 
 ```
 const int STUDENT_IN_GROUP = 4;
 ```
 
-(3) PermitGirlAlone: Set to true if you allow groups with only one girl, false otherwise. In the following example, groups with only one girl are not allowed:
+(3) `PermitGirlAlone`: Set to true if you allow groups with only one girl, false otherwise. In the following example, groups with only one girl are not allowed:
 
 ```
 const bool PermitGirlAlone = false;
 ```
 
-(4) PermitBoyAlone: Set to true if you allow groups with only one boy, false otherwise. In the following example, groups with only one boy are not allowed:
+(4) `PermitBoyAlone`: Set to true if you allow groups with only one boy, false otherwise. In the following example, groups with only one boy are not allowed:
 
 ```
 const bool PermitBoyAlone = false;
 ```
 
-(5) PermitAllGirl: Set to true to allow all-girl groups:
+(5) `PermitAllGirl`: Set to true to allow all-girl groups:
 
 ```
 const bool PermitAllGirl = false;
 ```
 
-(6) PermitAllBoy: Set to true to allow all-boy groups:
+(6) `PermitAllBoy`: Set to true to allow all-boy groups:
 
 ```
 const bool PermitAllBoy = true;
@@ -231,7 +231,7 @@ const bool PermitAllBoy = true;
 
 (Note) Variables set with true or false might not function correctly as they have not been thoroughly tested. Please contact us if you notice any issues.
 
-(7) LIMIT_TIME: The time (in seconds) allowed for searching for a solution. The loop terminates if the time exceeds this value. In the following example, it stops after 120 seconds:
+(7) `LIMIT_TIME`: The time (in seconds) allowed for searching for a solution. The loop terminates if the time exceeds this value. In the following example, it stops after 120 seconds:
 
 ```
 double LIMIT_TIME = 120;
@@ -253,7 +253,7 @@ This generates the executable file grouping_ils. Run it as follows:
 % ./grouping_ils filename
 ```
 
-To specify the execution time, use -t time (seconds). If no time is specified, the LIMIT_TIME defined in the source file is used.
+To specify the execution time, use `-t` time (seconds). If no time is specified, the `LIMIT_TIME` defined in the source file is used.
 
 In the following example, the calculation stops after 10 seconds and outputs the result:
 
