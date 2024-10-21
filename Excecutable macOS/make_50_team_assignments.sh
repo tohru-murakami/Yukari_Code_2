@@ -1,4 +1,4 @@
-# This script let the team assignment program make 100 optimized results.
+# This script let the team assignment program make 50 optimized results.
 
 # grouping_ils : team assignment optimization program.
 # data.txt : student data of properties and peer compatibility.
