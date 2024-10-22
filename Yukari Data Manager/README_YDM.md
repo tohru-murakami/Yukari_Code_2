@@ -2,26 +2,20 @@
 
 The **Yukari Data Manager** is a spreadsheet created with Apple Numbers, designed to help organize **Yukari Questionnaire Data**, compile it for the Yukari Code team optimization program, and review the optimized team assignments.
 
-## How to open the Yukari Data Manager
+1. **Compiling Data for the Optimization Program**  
+   This tool helps organize and prepare the necessary data files to run optimization calculations.
+
+2. **Reviewing Optimized Team Assignments**  
+   After the optimization process, the spreadsheet allows you to review the results and make adjustments or selections based on the optimized output.
+
+## How to use the Yukari Data Manager
 
 - **macOS**: Open the file directly in the Apple Numbers application.
 - **Windows and macOS (via web)**: You can also access the file using Apple Numbers through iCloud at iCloud.com.
 
 ---
 
-## **How to use This Spreadsheet**
-
-The spreadsheet, titled **"Yukari Data Manager"**, is designed to support the following tasks:
-
-1. **Compiling Data for the Optimization Program**  
-   This tool helps organize and prepare the necessary data files to run optimization calculations.
-   
-2. **Reviewing Optimized Team Assignments**  
-   After the optimization process, the spreadsheet allows you to review the results and make adjustments or selections based on the optimized output.
-
----
-
-## **Settings**
+### **Settings**
 
 1. **Compile the Student List**  
    The serial numbers start from 0 (not 1).  
@@ -34,14 +28,14 @@ Note: The following tables are used internally for calculations: **Compatibility
 
 ---
 
-## **When the Number of Students Exceeds the Table Limits**
+### **When the Number of Students Exceeds the Table Limits**
 
 1. Expand the rows and columns of the tables (including the tables for internal calculations) to match the number of students.
 2. Verify that the formulas are correctly applied to the newly added cells.
 
 ---
 
-## **Questionnaire Data**
+### **Questionnaire Data**
 
 1. Retrieve the questionnaire data from Google Forms and export it as an Excel document.
 2. Clean the data.
@@ -50,17 +44,17 @@ Note: The following tables are used internally for calculations: **Compatibility
 
 ---
 
-## **Setting Restrictions**
+### **Setting Restrictions**
 
 You can adjust values in the spreadsheet by adding negative or positive numbers (ranging from -10 to +10) in the relevant cells. Some samples are provided below.
 
-### **Suppressing Multiple Transfer Students on the Same Team**
+#### **Suppressing Multiple Transfer Students on the Same Team**
 
 To ensure that multiple transfer students are not assigned to the same team:
 
 - Input `-4` or lower in the cells corresponding to each transfer student.
 
-### **Distributing High-Achieving Students Across Teams**
+#### **Distributing High-Achieving Students Across Teams**
 
 To evenly distribute high-achieving students across teams:
 
@@ -70,7 +64,7 @@ To evenly distribute high-achieving students across teams:
 
 ---
 
-## **Compiling Data for the Optimization Program**
+### **Compiling Data for the Optimization Program**
 
 Use any text editor to compile data for the optimization program.
 
@@ -111,9 +105,7 @@ Use any text editor to compile data for the optimization program.
 
 ---
 
-## **Reviewing Optimized Team Assignments**
-
-### **Team Assignment**
+### **Reviewing Optimized Team Assignments**
 
 1. Choose the best team assignment like below.
 2. Copy the assignment and paste it into the blue box in the **Team Assignment** tab.
