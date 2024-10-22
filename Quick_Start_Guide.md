@@ -16,9 +16,9 @@ Download the files from the repository and place them in the Yukari directory.
 
 ## Put executable code
 
-Copy the executable file grouping_ils (for macOS) or grouping_ils.exe (for Windows) to the top level of the Yukari directory.
+Copy the executable file `grouping_ils` (for macOS) or `grouping_ils.exe` (for Windows) to the top level of the Yukari directory.
 
-Also, copy the sample data file data16.txt to the Yukari directory.
+Also, copy the sample data file `data16.txt` to the Yukari directory.
 
 ## Run a Test
 
