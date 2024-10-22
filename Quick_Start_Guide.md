@@ -65,7 +65,7 @@ Total Compatibility = 166
 
 For macOS and Linux users, you can compile the source code using `make`. Follow these steps:
 
-### 1. Install the Build Tools
+### Install the Build Tools
 
 Before proceeding, make sure you have the necessary build tools installed. On most systems, this will include a C or C++ compiler (such as `gcc` or `clang`) and `make`.
 
@@ -86,7 +86,7 @@ Ensure that `gcc` and `make` are installed. You can do this with the following c
   % sudo apt install build-essential
   ```
 
-### 2. Navigate to the Source Code Directory
+### Navigate to the Source Code Directory
 
 Go to the directory where the source code files are located. For example, if the source code is in the `Yukari` directory, run:
 
@@ -94,7 +94,7 @@ Go to the directory where the source code files are located. For example, if the
 % cd (path to Yukari directory)/Source\ code
 ```
 
-### 3. Run the `make` Command
+### Run the `make` Command
 
 In the terminal, run the `make` command to compile the source code. The `Makefile` in the directory should automate the compilation process:
 
@@ -104,7 +104,7 @@ In the terminal, run the `make` command to compile the source code. The `Makefil
 
 If everything is set up correctly, this will generate an executable file called `grouping_ils` in the same directory.
 
-### 4. Confirm the Compilation
+### Confirm the Compilation
 
 After the `make` process finishes, you can check that the executable was created by listing the contents of the directory:
 
@@ -114,7 +114,7 @@ After the `make` process finishes, you can check that the executable was created
 
 You should see the `grouping_ils` executable file.
 
-### 5. Run the Program
+### Run the Program
 
 You can now run the compiled executable as described in the test flight section:
 
