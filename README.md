@@ -1,4 +1,4 @@
-# Yukari code 2
+# Yukari Code 2
 
 Yukari team optimization program.
 
@@ -33,8 +33,8 @@ Prepare a file as follows:
 
 Example:
 
-```
 --- Start ---
+```
 16
 0 1 0
 1 1 0
@@ -173,8 +173,8 @@ Example:
 13 15 5
 14 15 6
 0 0 0
---- End ---
 ```
+--- End ---
 
 ## File Description
 
@@ -191,7 +191,7 @@ Example:
 
 ## Pre-configuration of the program
 
-In the file grouping_ils.cpp, there is a section titled "Configurable Parameters." Adjust the following variables according to your objectives:
+In the file grouping_ils.cpp, there is a section titled "`Configurable Parameters`." Adjust the following variables according to your objectives:
 
 (1) `MAX_COMPATIBILITY`: The maximum value for compatibility. In the following example, it is 10:
 
@@ -247,7 +247,9 @@ Example:
 % make
 ```
 
-This generates the executable file grouping_ils. Run it as follows:
+This generates the executable file grouping_ils. 
+
+Run it as follows:
 
 ```
 % ./grouping_ils filename
@@ -255,7 +257,7 @@ This generates the executable file grouping_ils. Run it as follows:
 
 To specify the execution time, use `-t` time (seconds). If no time is specified, the `LIMIT_TIME` defined in the source file is used.
 
-In the following example, the calculation stops after 10 seconds and outputs the result:
+In the following example, the calculation stops after `10` seconds and outputs the result:
 
 Example: If the file name in the above example is `data16.txt`:
 
@@ -278,19 +280,19 @@ Total Compatibility = 167
 
 From left to right:
 
-```
-Group number
-Number of members in the group (m)
-Student numbers of the m members. g indicates a girl, H indicates a transfer student.
-List of compatibilities within the group
-Group's evaluation value (reduced by the lowest compatibility)
-Total compatibility within the group
-Minimum compatibility within the group
-Number of girls
-Number of boys
-Number of transfer students
-```
+
+- Group number
+- Number of members in the group (`m`)
+- Student numbers of the m members. `g` indicates a girl, - `H` indicates a transfer student.
+- List of compatibilities within the group
+- Group's evaluation value (reduced by the lowest compatibility)
+- Total compatibility within the group
+- Minimum compatibility within the group
+- Number of girls
+- Number of boys
+- Number of transfer students
+
 
 ## Contributions
 
-The source codes, sample data, and this README were written by Toru Araki. Japanese in the codes and README were translated to English by Tohru Murakami. The repository at GitHub including these files and other supplimentary files were compiled by Tohru Murakami.
+The source codes, sample data, and this README were written by Toru Araki (arakit). Japanese in the codes and README were translated to English by Tohru Murakami. The repository at GitHub including these files and other supplimentary files were compiled by Tohru Murakami.
