@@ -1,58 +1,56 @@
 # Quick Start Guide
-Following is a quick guide to install and use Yukari Code 2.
+This is a quick guide to help you install and use Yukari Code 2.
 
-## Set working directory
+## Set the Working Directory
 
-Let meke a directory (folder) at a any place for team optimization. Lets assume we have the working directory named "Yukari" at Desktop.
+Create a directory (folder) at any location for team optimization. In this guide, we'll assume you create a working directory named "Yukari" on the Desktop.
 
-Path to Yukari directory will be following:
+The path to the Yukari directory will be as follows:
 
 - macOS: /Users/username/Desktop/Yukari
 - Windows: C:/Users/username/Desktop/Yukari
-- Linux: /home/username/Desktop/Yukari
 
-## Download codes, examples and ducuments
+## Download Codes, Examples, and Documents
 
-Download files from this repository to Yukari directory.
+Download the files from the repository and place them in the Yukari directory.
 
 ## Put executable code
 
-Copy the executable code "grouping_ils" (macOS) or "grouping_ils.exe" (Windoes) to the top of Yukari directory.
+Copy the executable file grouping_ils (for macOS) or grouping_ils.exe (for Windows) to the top level of the Yukari directory.
 
-Copy the sample data "data 16.txt" to Yukari directory.
+Also, copy the sample data file data16.txt to the Yukari directory.
 
-## Do a test flight
+## Run a Test
 
-Open terminal application.
+Open a terminal application:
 
 - macOS: Terminal.app
 - Windows: Command Prompt
-- Linux: Terminal
 
-Move to Yukari directory.
+Navigate to the Yukari directory:
 
 ```
 % cd (path to Yukari directory)
 ```
 
-Execute Yukari Cole.
+Execute Yukari Code.
 
-macOS and Linux:
-
-```
-(username@machinename) ~ % grouping_ils data16.txt
-```
-
-Windows:
+On macOS:
 
 ```
-C:\Users\(username)> grouping_ils.exe data16.txt
+% grouping_ils data16.txt
 ```
 
-After 5 minute you will get a result like this:
+On Windows:
 
 ```
-% ./grouping_ils -t 10 data16.txt
+> grouping_ils.exe data16.txt
+```
+
+After about 5 minutes, you will get a result similar to this:
+
+```
+% ./grouping_ils data16.txt
 data16.txt
 0,4,2g,3g,12,14,8 6 5 10 6 9 ,44.0,44,2,2,0,
 1,4,0g,5gH,10,13,6 6 7 4 7 9 ,37.0,39,2,2,1,
@@ -63,3 +61,63 @@ Minimum Compatibility = 4
 Total Compatibility = 166
 ```
 
+## Compile the Source Code (macOS & Linux Users)
+
+For macOS and Linux users, you can compile the source code using `make`. Follow these steps:
+
+### 1. Install the Build Tools
+
+Before proceeding, make sure you have the necessary build tools installed. On most systems, this will include a C or C++ compiler (such as `gcc` or `clang`) and `make`.
+
+#### macOS
+
+  Install the Xcode command-line tools by running the following command in Terminal:
+
+  ```
+  % xcode-select --install
+  ```
+
+#### Linux
+
+Ensure that `gcc` and `make` are installed. You can do this with the following commands:
+
+  ```
+  % sudo apt update
+  % sudo apt install build-essential
+  ```
+
+### 2. Navigate to the Source Code Directory
+
+Go to the directory where the source code files are located. For example, if the source code is in the `Yukari` directory, run:
+
+```
+% cd (path to Yukari directory)/Source\ code
+```
+
+### 3. Run the `make` Command
+
+In the terminal, run the `make` command to compile the source code. The `Makefile` in the directory should automate the compilation process:
+
+```
+% make
+```
+
+If everything is set up correctly, this will generate an executable file called `grouping_ils` in the same directory.
+
+### 4. Confirm the Compilation
+
+After the `make` process finishes, you can check that the executable was created by listing the contents of the directory:
+
+```
+% ls
+```
+
+You should see the `grouping_ils` executable file.
+
+### 5. Run the Program
+
+You can now run the compiled executable as described in the test flight section:
+
+```
+% ./grouping_ils data16.txt
+```
