@@ -1,6 +1,6 @@
 # Yukari Data Manager
 
-The **Yukari Data Manager** is a spreadsheet created with Apple Numbers, designed to help organize **Yukari Questionnaire Data**, compile it for the Yukari Code team optimization program, and review the optimized team assignments.
+The **Yukari Data Manager** is a spreadsheet created with Apple Numbers, designed to help organize Yukari Questionnaire Data, compile it for the Yukari Code team optimization program, and review the optimized team assignments.
 
 1. **Compiling Data for the Optimization Program**  
    This tool helps organize and prepare the necessary data files to run optimization calculations.
@@ -8,53 +8,45 @@ The **Yukari Data Manager** is a spreadsheet created with Apple Numbers, designe
 2. **Reviewing Optimized Team Assignments**  
    After the optimization process, the spreadsheet allows you to review the results and make adjustments or selections based on the optimized output.
 
-## How to use the Yukari Data Manager
+## How to open the Yukari Data Manager
 
 - **macOS**: Open the file directly in the Apple Numbers application.
 - **Windows and macOS (via web)**: You can also access the file using Apple Numbers through iCloud at iCloud.com.
 
----
+## Settings
 
-### **Settings**
-
-1. **Compile the Student List**  
+1. Compile the Student List  
    The serial numbers start from 0 (not 1).  
    For enhanced confidentiality, the student list may be randomized.
 
-2. **Define Matching Matrices**  
+2. Define Matching Matrices  
    Define matching as numbers 1–10 (larger is better).
 
 Note: The following tables are used internally for calculations: **Compatibility**, **Preference Matching**, **Commitment Matching**, **Preferences**, and **Commitment**.
 
----
-
-### **When the Number of Students Exceeds the Table Limits**
+## When the Number of Students Exceeds the Table Limits
 
 1. Expand the rows and columns of the tables (including the tables for internal calculations) to match the number of students.
 2. Verify that the formulas are correctly applied to the newly added cells.
 
----
-
-### **Questionnaire Data**
+## Questionnaire Data
 
 1. Retrieve the questionnaire data from Google Forms and export it as an Excel document.
 2. Clean the data.
 3. Copy the cleaned data and paste it into the **Questionnaire Data** tab of the spreadsheet.
 4. Leave any missing data fields blank (do not use placeholders).
 
----
-
-### **Setting Restrictions**
+## Setting Restrictions
 
 You can adjust values in the spreadsheet by adding negative or positive numbers (ranging from -10 to +10) in the relevant cells. Some samples are provided below.
 
-#### **Suppressing Multiple Transfer Students on the Same Team**
+### Suppressing Multiple Transfer Students on the Same Team
 
 To ensure that multiple transfer students are not assigned to the same team:
 
 - Input `-4` or lower in the cells corresponding to each transfer student.
 
-#### **Distributing High-Achieving Students Across Teams**
+### Distributing High-Achieving Students Across Teams
 
 To evenly distribute high-achieving students across teams:
 
@@ -62,15 +54,11 @@ To evenly distribute high-achieving students across teams:
 2. Identify the top N students based on their performance.
 3. Input `-4` or lower in the cells for every pair of these top students to prevent them from being assigned to the same team.
 
----
-
-### **Compiling Data for the Optimization Program**
+## Compiling Data for the Optimization Program
 
 Use any text editor to compile data for the optimization program.
 
----
-
-### **Creating Header Data**
+### Creating Header Data
 
 1. Create a plain text file named **"header.txt"**.
 2. On the first line, type the total number of students.
@@ -78,9 +66,7 @@ Use any text editor to compile data for the optimization program.
 4. Paste it on the second line of the **header.txt** file.
 5. Save the file.
 
----
-
-### **Creating Compatibility Data**
+### Creating Compatibility Data
 
 1. Create a plain text file named **"compatibility.txt"**.
 2. Copy the Compatibility Code (excluding the header) from the spreadsheet and paste it into the file.
@@ -88,9 +74,7 @@ Use any text editor to compile data for the optimization program.
 4. Use the `grep` function again to replace any multiple newlines (`\n+`) with a single newline (`\n`).
 5. Save the file.
 
----
-
-### **Compiling Data for the Optimization Program**
+### Compiling Data for the Optimization Program
 
 1. Create a plain text file named **"data.txt"**.
 2. Copy the contents of **header.txt** and paste them into **data.txt**.
@@ -103,9 +87,7 @@ Use any text editor to compile data for the optimization program.
 % ./grouping_ils data.txt
 ```
 
----
-
-### **Reviewing Optimized Team Assignments**
+## Reviewing Optimized Team Assignments
 
 1. Choose the best team assignment like below.
 2. Copy the assignment and paste it into the blue box in the **Team Assignment** tab.
@@ -145,10 +127,8 @@ Use any text editor to compile data for the optimization program.
 31,4,22,46g,58,115gH,9 10 7 9 7 10 ,52.0,52,2,2,1,
 ```
 
-
-
 ---
 
-## **Note**
+## Note
 
 The sample data in this file are either randomized or AI-generated and do not contain any individual's personal information.
