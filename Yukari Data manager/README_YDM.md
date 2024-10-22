@@ -1,5 +1,6 @@
-Yukari Data Manager is a spread sheet of Apple Numbers 
-for organizing Yukari Questionnaire Data, compiling data for 
-Yukari Code team optimization program and reviewing the optimized team assignments.
+Yukari Data Manager is a spreadsheet created with Apple Numbers, designed to help organize Yukari Questionnaire Data, compile it for the Yukari Code team optimization program, and review the optimized team assignments.
 
-Open this file with Apple Numbers on macOS or on iCloud web (macOS and Windows).
+To use the Yukari Data Manager:
+
+- macOS: Open the file directly in the Apple Numbers application.
+- Windows and macOS (via web): You can also access the file using Apple Numbers through iCloud at iCloud.com.
