@@ -50,12 +50,12 @@ On Windows:
 After about 5 minutes, you will get a result similar to this:
 
 ```
-% ./grouping_ils data16.txt
+% ./grouping_ils data16.txt 
 data16.txt
-0,4,2g,3g,12,14,8 6 5 10 6 9 ,44.0,44,2,2,0,
-1,4,0g,5gH,10,13,6 6 7 4 7 9 ,37.0,39,2,2,1,
+0,4,0g,5gH,10,13,6 6 7 4 7 9 ,37.0,39,2,2,1,
+1,4,6H,8,11,15,4 6 9 6 4 9 ,34.0,38,0,4,1,
 2,4,1g,4g,7H,9,6 6 9 5 10 9 ,45.0,45,2,2,1,
-3,4,6H,8,11,15,4 6 9 6 4 9 ,34.0,38,0,4,1,
+3,4,2g,3g,12,14,8 6 5 10 6 9 ,44.0,44,2,2,0,
 Total Value = 160.0
 Minimum Compatibility = 4
 Total Compatibility = 166
