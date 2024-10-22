@@ -7,8 +7,8 @@ Create a directory (folder) at any location for team optimization. In this guide
 
 The path to the Yukari directory will be as follows:
 
-- macOS: /Users/username/Desktop/Yukari
-- Windows: C:/Users/username/Desktop/Yukari
+- macOS: `/Users/(username)/Desktop/Yukari`
+- Windows: `C:/Users/(username)/Desktop/Yukari`
 
 ## Download Codes, Examples, and Documents
 
