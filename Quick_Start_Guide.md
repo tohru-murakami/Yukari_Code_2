@@ -12,7 +12,7 @@ The path to the Yukari directory will be as follows:
 
 ## Download Codes, Examples, and Documents
 
-Download the files from the repository and place them in the Yukari directory.
+Download and unzip all the files from the repository.
 
 ## Put executable code
 
