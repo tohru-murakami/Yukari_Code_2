@@ -297,4 +297,4 @@ From left to right:
 
 ## Contributions
 
-The source codes, sample data, and this README were written by Toru Araki (arakit). Japanese in the codes and README were translated to English by Tohru Murakami. The repository at GitHub including these files and other supplimentary files were compiled by Tohru Murakami.
+The source codes, sample data, and this README were written by [Toru Araki](https://github.com/arakit0328) (arakit). Japanese in the codes and README were translated to English by [Tohru Murakami](https://github.com/tohru-murakami). The repository at GitHub including these files and other supplimentary files were compiled by Tohru Murakami.
