@@ -124,7 +124,7 @@ You can now run the compiled executable as described in the test flight section:
 % ./grouping_ils data16.txt
 ```
 
-## Utilizing Yukari Code for the Optimization of Actual Anatomy Groups
+## Utilizing Yukari Code for the Optimization of Actual Anatomy Teams
 
 In order to use the Yukari Code to optimize the formation of actual anatomy groups, the necessary data must first be prepared.
 
