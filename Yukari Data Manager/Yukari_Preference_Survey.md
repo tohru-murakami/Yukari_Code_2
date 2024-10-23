@@ -1,99 +1,126 @@
-# Anatomy Group Preference Survey (Sample)
+Yukari Peer Preference Survey
 
-## Anatomy Group Preference Survey
+The following survey is implemented on a secure Google Form and is intended for all anatomy students.
 
-**Note:** This is a sample. In an actual survey, personal identification will be verified using the university's authentication system, and email addresses will be collected.
+———————————————————————————————————————————————————
 
-**Response Deadline:** 9:00 a.m. on the first Monday of August
+Deadline: the first Monday of the coming August
 
-Starting in September, anatomy classes will begin. A significant portion of the course involves anatomy dissection sessions, and students will be divided into groups of four. Since you’ll be spending a lot of time with your group until December, group selection is important. To "automatically optimize group formation using a computer," we are collecting preferences from each student.
+Your anatomy class starts this September. You will participate in anatomy dissection in a team of four for three months, so your success in this course largely depends on the team assignment. We, the anatomy faculty, use a computer-optimized system to assign teams based on your personal preferences collected through this secure survey.
 
-Please note that while this survey includes personal information, only those in charge of group assignments will handle the data. The data will be processed by a dedicated program to determine groupings. This information will not affect your grades. After processing, the raw data will be discarded and will not be used for any other purpose (*).
+Given the sensitivity of the information, only one faculty member, bound by confidentiality, will handle the data. The collected information will be used exclusively for team assignments and will not be disclosed to any parties, even if an individual requests their own data. Your responses to this survey will not affect your academic scores. (†)
 
-*To improve the program, anonymized data with names and student numbers replaced by random values may be used. Additionally, anonymous statistical data may be used for program improvement or academic presentations.*
+† Anonymized and/or statistical data may be used to improve the assignment program and for scientific reports.
 
-No inquiries regarding your responses will be answered (even by you).
+\* Required questions
 
----
+ 
 
-## Would you like to enter your preferences?
+**Will you respond this survey? \***
 
-If you choose "Yes," the explanation on how to enter your preferences will follow. If you choose "No," the group formation will be handled without your input.
+By choosing “No”, the survey will end without your participation and your team assignment will be done using default options.
 
-- **Yes**
-- **No**
+- Yes
+- No 
 
----
+**How committed are you to studying anatomy dissection?**
 
-## Section 2 of 5: About Yourself
+Please let us know about your level of commitment to anatomy. Be honest—don't exaggerate or downplay your dedication. Choose the single option that best describes you.
 
-First, please tell us about yourself. Answer honestly, without trying to exaggerate or downplay your abilities. For each question, select the option that best describes you.
 
-### Motivation for Anatomy Dissection
 
-How much do you agree with the statement: "I’m looking forward to the anatomy dissection and I’m eager to do my best"?
+ 
 
-- Strongly agree
-- Somewhat agree
-- Neither agree nor disagree
-- Somewhat disagree
-- Strongly disagree
+**Motivation for Anatomy Dissection \***
 
-### Time Availability for the Dissection Sessions
+How much do you agree with the following statement? – "I am looking forward to anatomy dissection and am willing to do my best."
 
-Sometimes anatomy dissection sessions may run late into the evening, depending on the group or schedule, potentially past 8 p.m. How late are you willing to stay?
+m Agree
 
-- I don’t mind staying late.
-- I can stay a little late.
-- I’m neutral.
-- I’d like to finish on time.
-- I’d like to finish earlier than the scheduled time.
+m Somewhat agree
 
----
+m Neither agree nor disagree
 
-## Section 3 of 5: How to Enter Preferences
+m Somewhat disagree
 
-For each student, imagine participating in the anatomy dissection sessions together, and rate how “good” it would be for you on a scale of 1 to 5.
+m Disagree
 
-| Rating | Description   |
-| ------ | ------------- |
-| 5      | Good          |
-| 4      | Somewhat good |
-| 3      | Neutral       |
-| 2      | Somewhat bad  |
-| 1      | Bad           |
 
-The "goodness" refers to whether you feel you can comfortably work together and improve your performance. This may not necessarily match how friendly you are with the person. Rather than evaluating the other person, think about how your relationship with them affects your own performance.
 
----
+ 
 
-## Section 4 of 5: Important Notes
+**Time available for anatomy dissection \***
 
-If you give extreme ratings of 1 or 2 to everyone except those you prefer, it may result in suboptimal or even unworkable group assignments.
+Anatomy dissection can be time-consuming and may extend beyond the scheduled time, sometimes lasting until 8 PM when the dissection room closes. How late are you willing to work on dissection?
 
-Please ensure that the combined total of 1’s and 2’s is no more than 10% of your ratings.
 
-If this limit is exceeded, 1’s and 2’s will be automatically replaced with 3’s.
 
-On smartphones, some options may be cut off at the right edge. If this happens, switch to landscape mode or swipe left to view the options.
+m I am willing to do dissection until late
 
-The following pages will list the roster across several sections.
+m I am willing to do dissection until somewhat late
 
----
+m Neither late nor early
 
-## Section 5 of 5: Preference Entry 1/7
+m I am willing to finish dissection as scheduled
 
-Can you see the options all the way to the right? If not, try landscape mode or swipe left.
+m I am willing to finish dissection early before scheduled time
 
-| 5     | 4               | 3    | 2    | 1    |
-| ----- | --------------- | ---- | ---- | ---- |
-| 17001 | Anatomy-chan    |      |      |      |
-| 17002 | Gunma Taro      |      |      |      |
-| 17003 | Maebashi Ichiro |      |      |      |
-| 17004 | Takasaki Sakura |      |      |      |
-| 17005 | Ota Yuu         |      |      |      |
-| 17006 | Isesaki Taro    |      |      |      |
-| 17007 | Kiryu Suzu      |      |      |      |
-| 17008 | Jomo Karuta     |      |      |      |
-| 17009 | Bando Taro      |      |      |      |
-| 17010 | Igaku Ichiro    |      |      |      |
+
+
+ 
+
+**How do you evaluate your preference for each classmate?**
+
+Indicate how favorable it would be for you to be assigned to the same anatomy team as the classmate in question. Consider how much this teammate would enhance your academic performance, not necessarily how much you personally like the person.
+
+5. Good
+6. Somewhat good
+7. Neither good nor bad
+8. Somewhat bad
+9. Bad
+
+ 
+
+
+
+**Note:** An excessively biased response, such as choosing “5” for a few friends and “1” for all others, may make computer optimization difficult or even infeasible for the entire class. Please choose “1” or “2” for 10% or fewer of your classmates. If your selections of “1” or “2” exceed 10%, all of those responses will be replaced with “3.”
+
+ 
+
+**Your peer preferences**
+
+Choose one option per line. If you do not make a selection, the default value will be set to "3".
+
+ 
+
+
+
+| ***#\*** | **Name**    | **5** | **4** | **3** | **2** | **1** |
+| -------- | ----------- | ----- | ----- | ----- | ----- | ----- |
+| *16001*  | Adachi,  B  |      |      |      |      |      |
+| *16002*  | Cajal, S    |      |      |      |      |      |
+| *16003*  | Chubb,  D   |      |      |      |      |      |
+| *16004*  | Corti, AGG  |      |      |      |      |      |
+| *16005*  | Gray,  H    |      |      |      |      |      |
+| *16006*  | Harvey, W   |      |      |      |      |      |
+| *16007*  | Meckel,  JF |      |      |      |      |      |
+| *...*    | ...         |      |      |      |      |      |
+
+[SUBMIT BOTTON]
+
+
+
+ 
+
+|      |      |      |      |      |
+| ---- | ---- | ---- | ---- | ---- |
+|      |      |      |      |      |
+|      |      |      |      |      |
+|      |      |      |      |      |
+|      |      |      |      |      |
+|      |      |      |      |      |
+|      |      |      |      |      |
+|      |      |      |      |      |
+|      |      |      |      |      |
+|      |      |      |      |      |
+|      |      |      |      |      |
