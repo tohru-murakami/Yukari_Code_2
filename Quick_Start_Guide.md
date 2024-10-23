@@ -12,7 +12,7 @@ The path to the Yukari directory will be as follows:
 
 ## Download Codes, Examples, and Documents
 
-Download and unzip all the files from the repository.
+Download and unzip all the files from the [Yukari_Code_2 repository](https://github.com/tohru-murakami/Yukari_Code_2).
 
 ## Put executable code
 
@@ -38,7 +38,7 @@ Execute Yukari Code.
 On macOS:
 
 ```
-% grouping_ils data16.txt
+% ./grouping_ils data16.txt
 ```
 
 On Windows:
@@ -68,6 +68,8 @@ For macOS and Linux users, you can compile the source code using `make`. Follow 
 ### Install the Build Tools
 
 Before proceeding, make sure you have the necessary build tools installed. On most systems, this will include a C or C++ compiler (such as `gcc` or `clang`) and `make`.
+
+Alternatively, simply run `make`, and the operating system will prompt you to install any necessary tools. You can then follow the instructions provided.
 
 #### macOS
 
@@ -121,3 +123,41 @@ You can now run the compiled executable as described in the test flight section:
 ```
 % ./grouping_ils data16.txt
 ```
+
+## Utilizing Yukari Code for the Optimization of Actual Anatomy Groups
+
+In order to use the Yukari Code to optimize the formation of actual anatomy groups, the necessary data must first be prepared.
+
+### Administering a Google Form Survey
+
+To gather input from the students enrolled in the anatomy course, Create an authenticated Google Form. The form should include the following questions, each of which will be answered on a 1–5 Likert scale.
+
+- To what extent do you agree with the statement: “I am looking forward to the anatomy dissection course and am motivated to do my best”?
+
+   1. Disagree
+   2. Somewhat disagree
+   3. Neutral or Don't know
+   4. Somewhat agree
+   5. Agree 
+
+- How late are you willing to stay for anatomy dissection sessions?
+
+  1. I would prefer to finish significantly earlier (about 1.5 hours before the scheduled time)
+  2. I would prefer to finish slightly early (about 45 minutes before the scheduled time)
+  3. I would prefer to finish on time (about 30 minutes past the scheduled time)
+  4. I don’t mind staying a bit late (about 1.5 hours after the scheduled time)
+  5. I don’t mind staying late (past 8:00 PM)
+
+- Additionally, the survey will ask students to rate how favorable it would be to work with each of their classmates, assuming they were assigned to the same group for the anatomy dissection course.
+
+  1. Bad
+  2. Not good
+  3. Neutral or Don't know
+  4. Fair
+  5. Good
+
+### Data Collection
+
+Once the Google Form survey has been administered to the students, the data will be downloaded in Excel format. The data will then be cleaned, and for any students who did not provide responses, their entries will be left blank.
+
+The cleaned data will be input into the Yukari Data Manager spreadsheet to generate the dataset required for use with the Yukari Code.
