@@ -8,7 +8,7 @@ The following survey is implemented on a secure Google Form and is intended for 
 
 Your anatomy class starts this September. You will participate in anatomy dissection in a team of four for three months, so your success in this course largely depends on the team assignment. We, the anatomy faculty, use a computer-optimization system to assign teams based on your personal preferences collected through this secure survey.
 
-Given the sensitivity of the information, only one faculty member, bound by confidentiality, will handle the data. The collected information will be used exclusively for team assignments and will not be disclosed to any parties, even if an individual requests their own data. Your responses to this survey will not affect your academic scores. (†)
+Given the sensitivity of the information, only one faculty member, bound by confidentiality, will handle the data. The collected information will be used exclusively for team assignments and will not be disclosed to any parties, even if an individual requests his or her own data. Your responses to this survey will not affect your academic scores. (†)
 
 † Anonymized and/or statistical data may be used to improve the assignment program and for scientific reports.
 
