@@ -61,7 +61,7 @@ Indicate how favorable it would be for you to be assigned to the same anatomy te
 
 Choose one option per line. If you do not make a selection, the default value will be set to "3".
 
-| ***#\*** | **Name**    | **5** | **4** | **3** | **2** | **1** |
+| **ID**   | **Name**    | **5** | **4** | **3** | **2** | **1** |
 | -------- | ----------- | ----- | ----- | ----- | ----- | ----- |
 | *m000*   | Abe Haruki  | ❍     | ❍     | ❍     | ❍     | ❍     |
 | *m001*   | Abe Nanami  | ❍     | ❍     | ❍     | ❍     | ❍     |
