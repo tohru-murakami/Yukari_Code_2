@@ -16,8 +16,7 @@ The **Yukari Data Manager** is a spreadsheet created with Apple Numbers, designe
 ## Settings
 
 1. Compile the Student List  
-   The serial numbers start from 0 (not 1).  
-   For enhanced confidentiality, the student list may be randomized.
+   The serial numbers start from 0 (not 1). For enhanced confidentiality, the serial numbers may be randomized.
 
 2. Define Matching Matrices  
    Define matching as numbers 1–10 (larger is better).
