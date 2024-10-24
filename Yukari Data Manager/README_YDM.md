@@ -6,7 +6,7 @@ The **Yukari Data Manager** is a spreadsheet created with Apple Numbers, designe
    This tool helps organize and prepare the necessary data files to run optimization calculations.
 
 2. **Reviewing Optimized Team Assignments**  
-   After the optimization process, the spreadsheet allows you to review the results and make adjustments or selections based on the optimized output.
+   After the optimization process, the spreadsheet allows you to review the results and make adjustments based on the optimized output.
 
 ## How to open the Yukari Data Manager
 
