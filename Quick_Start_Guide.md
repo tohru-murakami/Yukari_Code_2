@@ -130,31 +130,9 @@ In order to use the Yukari Code to optimize the formation of actual anatomy grou
 
 ### Administering a Google Form Survey
 
-To gather input from the students enrolled in the anatomy course, Create an authenticated Google Form. The form should include the following questions, each of which will be answered on a 1–5 Likert scale.
+To gather input from the students enrolled in the anatomy course, Create an authenticated Google Form. The form should include the following questions, each of which will be answered on a 1–5 Likert scale. 
 
-- To what extent do you agree with the statement: “I am looking forward to the anatomy dissection course and am motivated to do my best”?
-
-   1. Disagree
-   2. Somewhat disagree
-   3. Neutral or Don't know
-   4. Somewhat agree
-   5. Agree 
-
-- How late are you willing to stay for anatomy dissection sessions?
-
-  1. I would prefer to finish significantly earlier (about 1.5 hours before the scheduled time)
-  2. I would prefer to finish slightly early (about 45 minutes before the scheduled time)
-  3. I would prefer to finish on time (about 30 minutes past the scheduled time)
-  4. I don’t mind staying a bit late (about 1.5 hours after the scheduled time)
-  5. I don’t mind staying late (past 8:00 PM)
-
-- Additionally, the survey will ask students to rate how favorable it would be to work with each of their classmates, assuming they were assigned to the same group for the anatomy dissection course.
-
-  1. Bad
-  2. Not good
-  3. Neutral or Don't know
-  4. Fair
-  5. Good
+See the sample survey : /GitHub/Yukari_code_2/Yukari Data Manager/Yukari_Preference_Survey.md
 
 ### Data Collection
 
