@@ -30,7 +30,7 @@ Note: The following tables are used internally for calculations: **Compatibility
 
 ## Questionnaire Data
 
-1. Retrieve the questionnaire data from Google Forms and export it as an Excel document.
+1. Retrieve the questionnaire data from Google Forms as an Excel document.
 2. Clean the data.
 3. Copy the cleaned data and paste it into the **Questionnaire Data** tab of the spreadsheet.
 4. Leave any missing data fields blank (do not use placeholders).
