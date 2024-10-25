@@ -126,16 +126,14 @@ You can now run the compiled executable as described in the test flight section:
 
 ## Utilizing Yukari Code for the Optimization of Actual Anatomy Teams
 
-In order to use the Yukari Code to optimize the formation of actual anatomy groups, the necessary data must first be prepared.
+In order to use the Yukari Code to optimize the assignment of actual anatomy teams, the necessary data must first be prepared.
 
 ### Administering a Google Form Survey
 
-To gather input from the students enrolled in the anatomy course, Create an authenticated Google Form. The form should include the following questions, each of which will be answered on a 1–5 Likert scale. 
-
-See the sample survey : /GitHub/Yukari_code_2/Yukari Data Manager/Yukari_Preference_Survey.md
+To gather input from the students enrolled in the anatomy course, create a Google Form with access authentication. The form should include the following questions, each of which will be answered on a 1–5 Likert scale. See the sample survey for details : /GitHub/Yukari_code_2/Yukari Data Manager/Yukari_Preference_Survey.md
 
 ### Data Collection
 
-Once the Google Form survey has been administered to the students, the data will be downloaded in Excel format. The data will then be cleaned, and for any students who did not provide responses, their entries will be left blank.
+Once the Google Form survey has been administered to the students, download the data in Excel format. Check and clean the data. For any students who did not provide responses, Leave their entries blank.
 
-The cleaned data will be input into the Yukari Data Manager spreadsheet to generate the dataset required for use with the Yukari Code.
+The cleaned data will be input into the Yukari Data Manager spreadsheet to generate the data required for use with the Yukari Code.
