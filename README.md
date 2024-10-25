@@ -1,3 +1,5 @@
+![Banner](https://github.com/tohru-murakami/Yukari_Code_2/blob/main/Images/DALL·E%202024-10-25%2010.54.30%20-%20A%20bright,%20cheerful%20manga-style%20banner%20image%20representing%20team%20optimization%20through%20the%20concept%20of%20'red%20threads%20of%20fate,'%20featuring%20four%20main%20character.jpeg?raw=true)
+
 # Yukari Code 2
 
 Yukari team optimization program.
