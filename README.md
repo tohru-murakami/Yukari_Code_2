@@ -251,7 +251,7 @@ Example:
 % make
 ```
 
-This generates the executable file grouping_ils. 
+This generates the executable file `grouping_ils`. 
 
 Run it as follows:
 
