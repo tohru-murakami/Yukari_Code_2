@@ -1,4 +1,4 @@
-![DALL·E 2024-10-22 13 06 39 - A bright, cheerful manga-style banner image representing team optimization through the concept of 'red threads of fate,' featuring four main character](https://github.com/user-attachments/assets/a9b82615-b835-4237-8230-9aae63941813)
+[![DALL·E 2024-10-22 13 06 39 - A bright, cheerful manga-style banner image representing team optimization through the concept of 'red threads of fate,' featuring four main character](https://github.com/user-attachments/assets/a9b82615-b835-4237-8230-9aae63941813)](https://github.com/tohru-murakami/Yukari_Code_2/issues/2#issue-2612884567)
 
 # Yukari Code 2
 
