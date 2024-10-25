@@ -2,9 +2,11 @@
 
 # Yukari Code 2
 
-Yukari team optimization program.
+Yukari Code is a team assignment program that utilizes a heuristic local search combinatorial optimization algorithm based on peer-to-peer compatibility.
 
-Time-stamp: <2018-05-22 16:00:18 arakit>
+You can jump-start your team assignment process using executable files (available for macOS and Windows), sample data, a sample questionnaire, and a data management tool (Yukari Data Manager, formatted as an Apple Numbers spreadsheet).
+
+For Linux, you can compile an executable from the source code.
 
 ## Changes from Yukari Code 1
 
@@ -297,4 +299,4 @@ From left to right:
 
 ## Contributions
 
-The source codes, sample data, and this README were written by [Toru Araki](https://github.com/arakit0328) (arakit). Japanese in the codes and README were translated to English by [Tohru Murakami](https://github.com/tohru-murakami). The repository at GitHub including these files and other supplimentary files were compiled by Tohru Murakami.
+The source codes, sample data, and this README (Time-stamp: <2018-05-22 16:00:18 arakit>) were written by [Toru Araki](https://github.com/arakit0328) (arakit) . Japanese in the codes and README were translated to English by [Tohru Murakami](https://github.com/tohru-murakami). The repository at GitHub including these files and other supplimentary files were compiled by Tohru Murakami.
