@@ -14,7 +14,7 @@ Given the sensitivity of the information, only one faculty member, bound by conf
 
 \* Required questions
 
-## Will you respond this survey?
+## Will you respond this survey? \*
 
 By choosing “No”, the survey will end without your participation and your team assignment will be done using default options.
 
