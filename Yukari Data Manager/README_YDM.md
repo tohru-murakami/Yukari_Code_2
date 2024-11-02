@@ -25,8 +25,11 @@ Note: The following tables are used internally for calculations: **Compatibility
 
 ## When the Number of Students Exceeds the Table Limits
 
-1. Expand the rows and columns of the tables (including the tables for internal calculations) to match the number of students.
-2. Verify that the formulas are correctly applied to the newly added cells.
+The Yukari Data Manager is designed to accommodate class sizes of up to 160 students. If your class size exceeds this limit, you can adjust the spreadsheet as follows:
+
+1. Expand the rows and columns of all tables (including those used for internal calculations) to match the increased number of students.
+
+2. Ensure that all formulas are accurately extended to cover the newly added cells.
 
 ## Questionnaire Data
 
@@ -69,7 +72,7 @@ Use any text editor to compile data for the optimization program.
 
 1. Create a plain text file named **"compatibility.txt"**.
 2. Copy the **Compatibility Code** (excluding the header) from the spreadsheet and paste it into the file.
-3. Use the `grep` function to replace any multiple tab characters (`\t+`) with newlines (`\n`).
+3. Use the `grep` function to replace any multiple tab characters (`\t+`) with single newlines (`\n`).
 4. Use the `grep` function again to replace any blank lines (`^\n`) with nothing.
 5. Save the file.
 
