@@ -1,4 +1,4 @@
-# Yukari Peer Preference Survey (sample)
+# Yukari Preference Survey (sample)
 
 The following survey is implemented on a secure Google Form and is intended for all anatomy students.
 
@@ -14,7 +14,7 @@ Given the sensitivity of the information, only one faculty member, bound by conf
 
 \* Required questions
 
-## Will you respond this survey? *
+## Will you respond this survey?
 
 By choosing “No”, the survey will end without your participation and your team assignment will be done using default options.
 
@@ -23,11 +23,11 @@ By choosing “No”, the survey will end without your participation and your te
 
 ## How committed are you to studying anatomy dissection?
 
-Please let us know about your level of commitment to anatomy. Be honest—don't exaggerate or downplay your dedication. Choose the single option that best describes you.
+Please let us know about your level of commitment to anatomy dissection. Be honest — don't exaggerate or downplay your dedication. Choose the single option that best describes you.
 
 ### Motivation for Anatomy Dissection \*
 
-How much do you agree with the following statement? – "I am looking forward to anatomy dissection and am willing to do my best."
+How much do you agree with the following statement? – “I am looking forward to anatomy dissection and am willing to do my best.”
 
 - 5 = Agree
 - 4 = Somewhat agree
@@ -35,15 +35,15 @@ How much do you agree with the following statement? – "I am looking forward to
 - 2 = Somewhat disagree
 - 1 = Disagree
 
-### Time available for anatomy dissection *
+### Time available for anatomy dissection \*
 
 Anatomy dissection can be time-consuming and may extend beyond the scheduled time, sometimes lasting until 8 PM when the dissection room closes. How late are you willing to work on dissection?
 
-- 5 = I don’t mind staying late (past 8:00 PM)
-- 4 = I don’t mind staying a bit late (about 1.5 hours after the scheduled time)
-- 3 = I would prefer to finish on time (about 30 minutes past the scheduled time)
-- 2 = I would prefer to finish slightly early (about 45 minutes before the scheduled time)
-- 1 = I would prefer to finish significantly earlier (about 1.5 hours before the scheduled time)
+- 5 = I am willing to do dissection until late
+- 4 = I am willing to do dissection until somewhat late
+- 3 = Neither late nor early
+- 2 = I am willing to finish dissection as scheduled
+- 1 = I am willing to finish dissection early before scheduled time
 
 ## How do you evaluate your preference for each classmate?
 
@@ -55,13 +55,13 @@ Indicate how favorable it would be for you to be assigned to the same anatomy te
 - 2 = Somewhat bad
 - 1 = Bad
 
-**Note:** An excessively biased response, such as choosing “5” for a few friends and “1” for all others, may make computer optimization difficult or even infeasible for the entire class. Please choose “1” or “2” for 10% or fewer of your classmates. If your selections of “1” or “2” exceed 10%, all of those responses will be replaced with “3.”
+**Note:** An excessively biased response, such as choosing “5” for a few friends and “1” for all others, may make computer optimization difficult or even infeasible for the entire class. Please choose “1” or “2” for 10% or fewer of your classmates. If your selections of “1” or “2” exceed 10% disturbing optimization, all of those responses may be replaced with “3.”
 
 ### Your peer preferences
 
-Choose one option per line. If you do not make a selection, the default value will be set to "3".
+Choose one option per line. If you do not make a selection, the default value will be set to “3”.
 
-| **ID**   | **Name**    | **5** | **4** | **3** | **2** | **1** |
+| ***#\*** | **Name**    | **5** | **4** | **3** | **2** | **1** |
 | -------- | ----------- | ----- | ----- | ----- | ----- | ----- |
 | *m000*   | Abe Haruki  | ❍     | ❍     | ❍     | ❍     | ❍     |
 | *m001*   | Abe Nanami  | ❍     | ❍     | ❍     | ❍     | ❍     |
