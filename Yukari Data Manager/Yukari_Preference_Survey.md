@@ -39,11 +39,11 @@ How much do you agree with the following statement? – “I am looking forward 
 
 Anatomy dissection can be time-consuming and may extend beyond the scheduled time, sometimes lasting until 8 PM when the dissection room closes. How late are you willing to work on dissection?
 
-- 5 = I am willing to do dissection until late
-- 4 = I am willing to do dissection until somewhat late
-- 3 = Neither late nor early
-- 2 = I am willing to finish dissection as scheduled
-- 1 = I am willing to finish dissection early before scheduled time
+- 5 = I am willing to do dissection until late (Past 8PM)
+- 4 = I am willing to do dissection until somewhat late (+1.5h)
+- 3 = Neither late nor early (+30min)
+- 2 = I am willing to finish dissection as scheduled (-45min)
+- 1 = I am willing to finish dissection early before scheduled time (-1.5h)
 
 ## How do you evaluate your preference for each classmate?
 
