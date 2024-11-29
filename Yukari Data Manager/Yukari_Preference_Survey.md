@@ -1,6 +1,6 @@
 # Yukari Preference Survey (sample)
 
-The following survey is implemented on a secure Google Form and is intended for all anatomy students.
+The following survey is conducted using a secure Google Form and is designed for all anatomy students. The form requires students to log in with their student ID, which will be recorded alongside their responses.
 
 ---
 
