@@ -10,9 +10,7 @@ For Linux, you can compile an executable from the source code.
 
 ## Changes from Yukari Code 1
 
-The Yukari Code 1 was a private version intended for internal review.　The calculation has been modified to complete within the specified time.
-The criteria for a good group division have been changed.
-The number of transfer students in a group is no longer considered.
+The Yukari Code 1 was a private version intended for internal review. In Yukari Code 2, the calculation has been modified to complete within the specified time. The criteria for a good group division have been changed. The number of transfer students in a group is no longer considered.
 
 ## The problem this program solves
 
