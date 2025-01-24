@@ -111,10 +111,19 @@ If everything is set up correctly, this will generate an executable file called 
 After the `make` process finishes, you can check that the executable was created by listing the contents of the directory:
 
 ```
-% ls
+% ls -l
 ```
 
 You should see the `grouping_ils` executable file.
+
+```
+total 680
+-rw-r--r--@ 1 tohru  staff     230 12  3 23:27 Makefile
+-rwxr-xr-x  1 tohru  staff  134236  1 24 11:04 grouping_ils
+-rw-r--r--@ 1 tohru  staff   33415 12  3 23:27 grouping_ils.cpp
+-rw-r--r--@ 1 tohru  staff    3972 12  3 23:27 grouping_ils.hpp
+-rw-r--r--  1 tohru  staff  165868  1 24 11:04 grouping_ils.o
+```
 
 ### Run the Program
 
