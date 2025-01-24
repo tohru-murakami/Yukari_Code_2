@@ -21,7 +21,10 @@ The **Yukari Data Manager** is a spreadsheet created with Apple Numbers, designe
 2. Define Matching Matrices  
    Define matching as numbers 1–10 (larger is better).
 
-Note: The following tables are used internally for calculations: **Compatibility**, **Preference Matching**, **Commitment Matching**, **Preferences**, and **Commitment**.
+### Note ###
+- For team assignments, you use the following tabels : **Student list**, **Matching Matrices**, **Questionnaire Data**, **Restrictions**, **Compatibility Code**, and **Team Assignment**. 
+
+- Other tables are used internally for calculations: **Compatibility**, **Preference Matching**, **Commitment Matching**, **Preferences**, and **Commitment**.
 
 ## When the Number of Students Exceeds the Table Limits
 

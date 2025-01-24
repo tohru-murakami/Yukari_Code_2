@@ -61,7 +61,7 @@ Minimum Compatibility = 4
 Total Compatibility = 166
 ```
 
-## Compile the Source Code (macOS & Linux Users)
+## Optional: Compile the Source Code (macOS & Linux Users)
 
 For macOS and Linux users, you can compile the source code using `make`. Follow these steps:
 
@@ -125,8 +125,7 @@ You can now run the compiled executable as described in the test flight section:
 ```
 
 ## Utilizing Yukari Code for the Optimization of Actual Anatomy Teams
-
-In order to use the Yukari Code to optimize the assignment of actual anatomy teams, the necessary data must first be prepared.
+In order to use the Yukari Code to optimize the assignment of actual  teams, the necessary data must first be prepared.
 
 ### Administering a Google Form Survey
 
