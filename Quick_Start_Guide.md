@@ -1,19 +1,6 @@
 # Quick Start Guide
 This is a quick guide to help you install and use Yukari Code 2.
 
-## Overview
-
-```mermaid
-flowchart TB
-    A["Google Forms"] --> B["Download data as Excel"]
-    B --> C["Data Cleanup"]
-    C --> D["Generate Yukari Code Input<br>Using Yukari Data Manager"]
-    D --> E["Format Data with Text Editor"]
-    E --> F["Team Assignment Calculation<br>with Yukari Code"]
-    F --> G["Enter Team Assignments<br>into Yukari Data Manager"]
-    G --> H["Team Assignment Table"]
-```
-
 ## Set the Working Directory
 
 Create a directory (folder) at any location for team optimization. In this guide, we'll assume you create a working directory named "Yukari" on the Desktop.
@@ -148,6 +135,19 @@ You can now run the compiled executable as described in the test flight section:
 
 ## Utilizing Yukari Code for the Optimization of Actual Anatomy Teams
 In order to use the Yukari Code to optimize the assignment of actual  teams, the necessary data must first be prepared.
+
+### Overview
+
+```mermaid
+flowchart TB
+    A["Google Forms"] --> B["Download data as Excel"]
+    B --> C["Data Cleanup"]
+    C --> D["Generate Yukari Code Input<br>Using Yukari Data Manager"]
+    D --> E["Format Data with Text Editor"]
+    E --> F["Team Assignment Calculation<br>with Yukari Code"]
+    F --> G["Enter Team Assignments<br>into Yukari Data Manager"]
+    G --> H["Team Assignment Table"]
+```
 
 ### Administering a Google Form Survey
 
