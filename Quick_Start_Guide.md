@@ -134,7 +134,7 @@ In order to use the Yukari Code to optimize the assignment of actual  teams, the
 ### Overview
 
 ```mermaid
-flowchart LR
+flowchart
     subgraph Phase1 [Data Collection & Cleanup]
       A["Google Forms"] --> B["Download as Excel"]
       B --> C["Data Cleanup"]
