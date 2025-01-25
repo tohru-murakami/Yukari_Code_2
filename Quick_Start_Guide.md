@@ -126,14 +126,9 @@ total 680
 ```
 
 ### Run the Program
+You can now run the compiled executable as described in the "Run a Test" section above.
 
-You can now run the compiled executable as described in the test flight section:
-
-```
-% ./grouping_ils data16.txt
-```
-
-## Utilizing Yukari Code for the Optimization of Actual Anatomy Teams
+## Use Yukari Code for Actual Anatomy Teams
 In order to use the Yukari Code to optimize the assignment of actual  teams, the necessary data must first be prepared.
 
 ### Overview
@@ -149,12 +144,26 @@ flowchart TB
     G --> H["Team Assignment Table"]
 ```
 
-### Administering a Google Form Survey
+### Administer a Google Form Survey
 
-To gather input from the students enrolled in the anatomy course, create a Google Form with access authentication. The form should include the following questions, each of which will be answered on a 1–5 Likert scale. See the sample survey for details : /GitHub/Yukari_code_2/Yukari Data Manager/Yukari_Preference_Survey.md
+To gather input from the students enrolled in the anatomy course, create a Google Form with access authentication. The form should include the following questions, each of which will be answered on a 1–5 Likert scale. 
 
-### Data Collection
+See the sample survey for details : /GitHub/Yukari_code_2/Yukari Data Manager/Yukari_Preference_Survey.md
+
+### Download and Cleanup the Data
 
 Once the Google Form survey has been administered to the students, download the data in Excel format. Check and clean the data. For any students who did not provide responses, Leave their entries blank.
 
 The cleaned data will be input into the Yukari Data Manager spreadsheet to generate the data required for use with the Yukari Code.
+
+### Generate and Format Input Data for the Yukari Code
+
+Input the cleaned survey data to Yukari Data Manager and Generate input data for the Yukari Code: See READEME_YMD for details.
+
+### Run Yukari Code for the Data
+
+Using Terminal, run Yukari Code for the Data.
+
+### Make Team Assignment Table
+
+Imput the optimized team assignmnet to Yukari Code Manager to obtain the Team Assignment Table: See READEME_YMD for details.
