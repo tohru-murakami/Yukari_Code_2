@@ -134,14 +134,17 @@ In order to use the Yukari Code to optimize the assignment of actual  teams, the
 ### Overview
 
 ```mermaid
-flowchart TB
-    A["Google Forms"] --> B["Download data as Excel"]
-    B --> C["Data Cleanup"]
-    C --> D["Generate Yukari Code Input<br>Using Yukari Data Manager"]
-    D --> E["Format Data with Text Editor"]
-    E --> F["Team Assignment Calculation<br>with Yukari Code"]
-    F --> G["Enter Team Assignments<br>into Yukari Data Manager"]
-    G --> H["Team Assignment Table"]
+flowchart LR
+    A["Google Forms"]
+    B["Download as Excel"]
+    C["Data Cleanup"]
+    D["Convert to Yukari Code Input<br>Using Yukari Data Manager"]
+    E["Format Data with Text Editor"]
+    F["Team Assignment Calculation<br>with Yukari Code"]
+    G["Enter Team Assignments<br>into Yukari Data Manager"]
+    H["Team Assignment Table"]
+
+    A --> B --> C --> D --> E --> F --> G --> H
 ```
 
 ### Administer a Google Form Survey
