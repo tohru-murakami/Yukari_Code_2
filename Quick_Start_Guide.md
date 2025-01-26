@@ -14,7 +14,7 @@ The path to the Yukari directory will be as follows:
 
 Download and unzip all the files from the [Yukari_Code_2 repository](https://github.com/tohru-murakami/Yukari_Code_2).
 
-## Put executable code
+## Copy the Executable and Sample Data
 
 Copy the executable file `grouping_ils` (for macOS) or `grouping_ils.exe` (for Windows) to the top level of the Yukari directory.
 
@@ -96,7 +96,7 @@ Go to the directory where the source code files are located. For example, if the
 % cd (path to Yukari directory)/Source\ code
 ```
 
-### Run the `make` Command
+### Run `make` Command
 
 In the terminal, run the `make` command to compile the source code. The `Makefile` in the directory should automate the compilation process:
 
@@ -125,10 +125,8 @@ total 680
 -rw-r--r--  1 user  staff  165868  1 24 11:04 grouping_ils.o
 ```
 
-### Run the Program
-You can now run the compiled executable as described in the "Run a Test" section above.
+## Use Yukari Code for Actual Team Assignments
 
-## Use Yukari Code for Actual Anatomy Teams
 In order to use the Yukari Code to optimize the assignment of actual  teams, the necessary data must first be prepared.
 
 ### Overview
@@ -157,19 +155,17 @@ flowchart
 
 ### Administer a Google Form Survey
 
-To gather input from the students enrolled in the anatomy course, create a Google Form with access authentication. The form should include the following questions, each of which will be answered on a 1–5 Likert scale. 
+To gather input from the students enrolled in the  course, create a Google Form with access authentication. The form should include the following questions, each of which will be answered on a 1–5 Likert scale. 
 
 See the sample survey for details : /GitHub/Yukari_code_2/Yukari Data Manager/Yukari_Preference_Survey.md
 
 ### Download and Cleanup the Data
 
-Once the Google Form survey has been administered to the students, download the data in Excel format. Check and clean the data. For any students who did not provide responses, Leave their entries blank.
-
-The cleaned data will be input into the Yukari Data Manager spreadsheet to generate the data required for use with the Yukari Code.
+Once the Google Form survey has been administered to the students, download the data in Excel format. Check and clean the data. For any students who declined to respond to the survey, create their entries with blank answers.
 
 ### Generate and Format Input Data for the Yukari Code
 
-Input the cleaned survey data to Yukari Data Manager and Generate input data for the Yukari Code: See READEME_YMD for details.
+Copy and Paste the cleaned survey data to Yukari Data Manager and generate input data for the Yukari Code: See READEME_YMD for details.
 
 ### Run Yukari Code for the Data
 
