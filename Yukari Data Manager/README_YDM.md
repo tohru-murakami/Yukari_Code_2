@@ -75,7 +75,7 @@ Use any text editor to compile data for the optimization program.
 
 1. Create a plain text file named **"compatibility.txt"**.
 2. Copy the **Compatibility Code** (excluding the header) from the spreadsheet and paste it into the file.
-3. Use the `grep` function to replace any multiple tab characters (`\t+`) with single newlines (`\n`).
+3. Use the `grep` function to replace any multiple tab characters (`[\t\n]+`) with single newlines (`\n`).
 4. Use the `grep` function again to replace any blank lines (`^\n`) with nothing.
 5. Save the file.
 
