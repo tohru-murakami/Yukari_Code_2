@@ -8,7 +8,7 @@ The **Yukari Data Manager** is a spreadsheet created with Apple Numbers, designe
 2. **Reviewing Optimized Team Assignments**  
    After the optimization process, the spreadsheet allows you to review the results and make adjustments based on the optimized output.
 
-## How to open the Yukari Data Manager
+## Open Yukari Data Manager
 
 - **macOS**: Open the file directly in the Apple Numbers application.
 - **Windows and macOS (via web)**: You can also access the file using Apple iCloud Numbers through at [iCloud.com](https://www.icloud.com).
