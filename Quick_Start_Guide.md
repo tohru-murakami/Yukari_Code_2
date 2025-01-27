@@ -61,7 +61,7 @@ Minimum Compatibility = 4
 Total Compatibility = 166
 ```
 
-## Optional: Compile the Source Code (macOS & Linux Users)
+## Optional: Compile the Source Code (macOS & Linux)
 
 For macOS and Linux users, you can compile the source code using `make`. Follow these steps:
 
@@ -155,22 +155,40 @@ flowchart
 
 ### Administer a Google Form Survey
 
-To gather input from the students enrolled in the  course, create a Google Form with access authentication. The form should include the following questions, each of which will be answered on a 1–5 Likert scale. 
+To gather input from the students enrolled in the  course, create a Google Form with access authentication. The form should include questions answered on a 1–5 Likert scale. 
 
-See the sample survey for details : /GitHub/Yukari_code_2/Yukari Data Manager/Yukari_Preference_Survey.md
+See the sample survey for details : 
+
+/GitHub/Yukari_code_2/Yukari Data Manager/Yukari_Preference_Survey.md
 
 ### Download and Cleanup the Data
 
-Once the Google Form survey has been administered to the students, download the data in Excel format. Check and clean the data. For any students who declined to respond to the survey, create their entries with blank answers.
+Once the Google Form survey has been administered to the students, download the data in Excel format. 
+
+Check and clean the data. 
+
+For students who declined to respond to the survey, create their entries with blank answers.
 
 ### Generate and Format Input Data for the Yukari Code
 
-Copy and Paste the cleaned survey data to Yukari Data Manager and generate input data for the Yukari Code: See READEME_YMD for details.
+Copy and Paste the cleaned survey data to Yukari Data Manager and generate input data for the Yukari Code. 
+
+See READEME_YMD for details:
+
+/GitHub/Yukari_code_2/Yukari Data Manager/READEME_YMD.md
 
 ### Run Yukari Code for the Data
 
 Using Terminal, run Yukari Code for the Data.
 
+See README for details:
+
+/GitHub/Yukari_code_2/READEME.md
+
 ### Make Team Assignment Table
 
-Imput the optimized team assignmnet to Yukari Code Manager to obtain the Team Assignment Table: See READEME_YMD for details.
+Imput the optimized team assignmnet to Yukari Code Manager to compile a Team Assignment Table.
+
+See READEME_YMD for details:
+
+/GitHub/Yukari_code_2/Yukari Data Manager/READEME_YMD.md
