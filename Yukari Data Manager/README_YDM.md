@@ -26,7 +26,7 @@ The **Yukari Data Manager** is a spreadsheet created with Apple Numbers, designe
 
 - Other tables are used internally for calculations: **Compatibility**, **Preference Matching**, **Commitment Matching**, **Preferences**, and **Commitment**.
 
-## When the Number of Students Exceeds the Table Limits
+### When the Number of Students Exceeds the Table Limits
 
 The Yukari Data Manager is designed to accommodate class sizes of up to 160 students. If your class size exceeds this limit, you can adjust the spreadsheet as follows:
 
