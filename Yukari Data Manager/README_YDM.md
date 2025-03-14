@@ -1,6 +1,6 @@
 # Yukari Data Manager
 
-The **Yukari Data Manager** is a spreadsheet created with Apple Numbers, designed to help organize Yukari Preference Questionnaire Data, compile it for the Yukari Code team optimization program, and review the optimized team assignments.
+The **Yukari Data Manager** is a spreadsheet created with **Apple Numbers**, designed to help organize Yukari Preference Questionnaire Data, compile it for the Yukari Code team optimization program, and review the optimized team assignments.
 
 1. **Compiling Data for the Optimization Program**  
    This tool helps organize and prepare the necessary data files to run optimization calculations.
@@ -8,10 +8,15 @@ The **Yukari Data Manager** is a spreadsheet created with Apple Numbers, designe
 2. **Reviewing Optimized Team Assignments**  
    After the optimization process, the spreadsheet allows you to review the results and make adjustments based on the optimized output.
 
+## Yukari Data Manager for Excel
+
+The original **Yukari Data Manager** were exported to xlsx format using Numbers. Although many of the formulas were not correctly converted, the broken formulas were rebuilt manually. Currently the excel version is provided here for beta testing.
+
 ## Open Yukari Data Manager
 
 - **macOS**: Open the file directly in the Apple Numbers application.
 - **Windows and macOS (via web)**: You can also access the file using Apple iCloud Numbers through at [iCloud.com](https://www.icloud.com).
+- **Windows and macOS**: Try the Excel version for beta testing.
 
 ## Settings
 
