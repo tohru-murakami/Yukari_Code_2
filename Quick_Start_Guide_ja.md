@@ -119,7 +119,7 @@ Yukari Code を使用して実際のチームを最適化するためには、�
 
 ### フロー概要
 
-```
+```mermaid
 flowchart
     subgraph Phase1 [データ収集と整理]
       A["Google Forms"] --> B["Excelとしてダウンロード"]
