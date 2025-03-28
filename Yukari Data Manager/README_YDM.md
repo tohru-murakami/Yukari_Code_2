@@ -99,8 +99,12 @@ Use any text editor to compile data for the optimization program.
 
 ## Reviewing Optimized Team Assignments
 
-1. Choose the best team assignment from **result.txt** like below.
+1. Choose the best team assignment from **result.txt** like below as the sample below.
 2. Copy the assignment and paste it into the blue box in the **Team Assignment** tab.
+
+- For Excel version, 2 may not work. Instead you can open result.txt as CSV and copy and paste the result to YDM.
+
+### Sample Assignment
 
 ```
 0,4,1,44g,57,85g,8 9 8 9 10 10 ,54.0,54,2,2,0,
