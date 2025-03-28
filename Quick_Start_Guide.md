@@ -61,70 +61,6 @@ Minimum Compatibility = 4
 Total Compatibility = 166
 ```
 
-## Optional: Compile the Source Code (macOS & Linux)
-
-For macOS and Linux users, you can compile the source code using `make`. Follow these steps:
-
-### Install the Build Tools
-
-Before proceeding, make sure you have the necessary build tools installed. On most systems, this will include a C or C++ compiler (such as `gcc` or `clang`) and `make`.
-
-Alternatively, simply run `make`, and the operating system will prompt you to install any necessary tools. You can then follow the instructions provided.
-
-#### macOS
-
-  Install the Xcode command-line tools by running the following command in Terminal:
-
-  ```
-  % xcode-select --install
-  ```
-
-#### Linux
-
-Ensure that `gcc` and `make` are installed. You can do this with the following commands:
-
-  ```
-  % sudo apt update
-  % sudo apt install build-essential
-  ```
-
-### Navigate to the Source Code Directory
-
-Go to the directory where the source code files are located. For example, if the source code is in the `Yukari` directory, run:
-
-```
-% cd (path to Yukari directory)/Source\ code
-```
-
-### Run `make` Command
-
-In the terminal, run the `make` command to compile the source code. The `Makefile` in the directory should automate the compilation process:
-
-```
-% make
-```
-
-If everything is set up correctly, this will generate an executable file called `grouping_ils` in the same directory.
-
-### Confirm the Compilation
-
-After the `make` process finishes, you can check that the executable was created by listing the contents of the directory:
-
-```
-% ls -l
-```
-
-You should see the `grouping_ils` executable file.
-
-```
-total 680
--rw-r--r--@ 1 user  staff     230 12  3 23:27 Makefile
--rwxr-xr-x  1 user  staff  134236  1 24 11:04 grouping_ils
--rw-r--r--@ 1 user  staff   33415 12  3 23:27 grouping_ils.cpp
--rw-r--r--@ 1 user  staff    3972 12  3 23:27 grouping_ils.hpp
--rw-r--r--  1 user  staff  165868  1 24 11:04 grouping_ils.o
-```
-
 ## Use Yukari Code for Actual Team Assignments
 
 In order to use the Yukari Code to optimize the assignment of actual  teams, the necessary data must first be prepared.
@@ -192,3 +128,67 @@ Imput the optimized team assignmnet to Yukari Code Manager to compile a Team Ass
 See READEME_YMD for details:
 
 /GitHub/Yukari_code_2/Yukari Data Manager/READEME_YMD.md
+
+## Optional: Compile the Source Code (macOS & Linux)
+
+For macOS and Linux users, you can compile the source code using `make`. Follow these steps:
+
+### Install the Build Tools
+
+Before proceeding, make sure you have the necessary build tools installed. On most systems, this will include a C or C++ compiler (such as `gcc` or `clang`) and `make`.
+
+Alternatively, simply run `make`, and the operating system will prompt you to install any necessary tools. You can then follow the instructions provided.
+
+#### macOS
+
+  Install the Xcode command-line tools by running the following command in Terminal:
+
+  ```
+  % xcode-select --install
+  ```
+
+#### Linux
+
+Ensure that `gcc` and `make` are installed. You can do this with the following commands:
+
+  ```
+  % sudo apt update
+  % sudo apt install build-essential
+  ```
+
+### Navigate to the Source Code Directory
+
+Go to the directory where the source code files are located. For example, if the source code is in the `Yukari` directory, run:
+
+```
+% cd (path to Yukari directory)/Source\ code
+```
+
+### Run `make` Command
+
+In the terminal, run the `make` command to compile the source code. The `Makefile` in the directory should automate the compilation process:
+
+```
+% make
+```
+
+If everything is set up correctly, this will generate an executable file called `grouping_ils` in the same directory.
+
+### Confirm the Compilation
+
+After the `make` process finishes, you can check that the executable was created by listing the contents of the directory:
+
+```
+% ls -l
+```
+
+You should see the `grouping_ils` executable file.
+
+```
+total 680
+-rw-r--r--@ 1 user  staff     230 12  3 23:27 Makefile
+-rwxr-xr-x  1 user  staff  134236  1 24 11:04 grouping_ils
+-rw-r--r--@ 1 user  staff   33415 12  3 23:27 grouping_ils.cpp
+-rw-r--r--@ 1 user  staff    3972 12  3 23:27 grouping_ils.hpp
+-rw-r--r--  1 user  staff  165868  1 24 11:04 grouping_ils.o
+```
