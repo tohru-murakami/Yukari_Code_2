@@ -1,4 +1,4 @@
-![Banner](https://github.com/tohru-murakami/Yukari_Code_2/blob/main/Images/DALL·E%202024-10-25%2010.54.30%20-%20A%20bright,%20cheerful%20manga-style%20banner%20image%20representing%20team%20optimization%20through%20the%20concept%20of%20'red%20threads%20of%20fate,'%20featuring%20four%20main%20character.jpeg?raw=true)
+![Banner](https://github.com/tohru-murakami/Yukari_Code_2/blob/de772f8a63a76a77408405e8862a0a9aebd05c13/Images/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%8810%E6%97%A5%2012_46_57.png?raw=true)
 
 # Yukari Code 2
 
