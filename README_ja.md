@@ -1,3 +1,5 @@
+![Banner](https://github.com/tohru-murakami/Yukari_Code_2/blob/de772f8a63a76a77408405e8862a0a9aebd05c13/Images/ChatGPT%20Image%202025%E5%B9%B44%E6%9C%8810%E6%97%A5%2012_46_57.png?raw=true)
+
 # Yukari Code 2
 
 Yukari Codeは、ピア・ツー・ピアの相性を基にしたヒューリスティックな局所探索組み合わせ最適化アルゴリズムを利用したチーム編成プログラムです。
