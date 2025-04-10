@@ -39,6 +39,10 @@ The Yukari Data Manager is designed to accommodate class sizes of up to 160 stud
 
 2. Ensure that all formulas are accurately extended to cover the newly added cells.
 
+### Note ###
+
+By default, Yukari Code is configured to handle up to 150 students. If you need to accommodate more than this number, please modify the corresponding constant in the source code and recompile the program.
+
 ## Questionnaire Data
 
 1. Retrieve the questionnaire data from Google Forms as an Excel document.
