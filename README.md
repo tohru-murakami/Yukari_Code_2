@@ -8,10 +8,6 @@ You can jump-start your team assignment process using executable files (availabl
 
 For Linux, you can compile an executable from the source code.
 
-## Notes on Yukari Code 1
-
-The Yukari Code 1 was a private version intended for internal review. In Yukari Code 2, the calculation has been modified to complete within the specified time. The criteria for a good group division have been changed. The number of transfer students in a group is no longer considered.
-
 ## The problem this program solves
 
 The task is to create groups of m students from the class of n students. The "compatibility" between students is given as a number from 1 to `MAX_COMPATIBILITY`. A larger number indicates a "better relationship."
@@ -294,6 +290,9 @@ From left to right:
 - Number of boys
 - Number of transfer students
 
+## Notes on Yukari Code 1
+
+The Yukari Code 1 was a private version intended for internal review. In Yukari Code 2, the calculation has been modified to complete within the specified time. The criteria for a good group division have been changed. The number of transfer students in a group is no longer considered.
 
 ## Contributions
 
