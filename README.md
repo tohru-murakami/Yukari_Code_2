@@ -292,7 +292,7 @@ From left to right:
 
 ## Notes on Yukari Code 1
 
-The Yukari Code 1 was a private version intended for internal review. In Yukari Code 2, the calculation has been modified to complete within the specified time. The criteria for a good group division have been changed. The number of transfer students in a group is no longer considered.
+The Yukari Code 1 was a private version intended for internal review. In Yukari Code 2, the calculation has been modified to complete within the specified time. The criteria for a good group division have been changed. The number of transfer students in a group is restricted in input data.
 
 ## Contributions
 
