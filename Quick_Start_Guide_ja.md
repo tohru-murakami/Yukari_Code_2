@@ -186,3 +186,14 @@ Xcodeのコマンドラインツールをインストールします：
 ```
 % ls -l
 ```
+
+ファイル一覧に `grouping_ils` 実行ファイルがあるはずです。
+
+```
+total 680
+-rw-r--r--@ 1 user  staff     230 12  3 23:27 Makefile
+-rwxr-xr-x  1 user  staff  134236  1 24 11:04 grouping_ils
+-rw-r--r--@ 1 user  staff   33415 12  3 23:27 grouping_ils.cpp
+-rw-r--r--@ 1 user  staff    3972 12  3 23:27 grouping_ils.hpp
+-rw-r--r--  1 user  staff  165868  1 24 11:04 grouping_ils.o
+```
