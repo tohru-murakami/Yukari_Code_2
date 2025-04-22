@@ -4,7 +4,7 @@
 
 Yukari Code is a team assignment program that utilizes a heuristic local search combinatorial optimization algorithm based on peer-to-peer compatibility.
 
-You can jump-start your team assignment process using executable files (available for macOS and Windows), sample data, a sample questionnaire, and a data management tool (Yukari Data Manager, formatted as an Apple Numbers spreadsheet).
+You can jump-start your team assignment process using executable files (available for macOS and Windows), sample data, a sample questionnaire, and a data management tool (Yukari Data Manager, formatted as an Apple Numbers or Microsoft Excel spreadsheet).
 
 For Linux, you can compile an executable from the source code.
 
